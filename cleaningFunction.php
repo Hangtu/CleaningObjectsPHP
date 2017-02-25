@@ -1,4 +1,5 @@
 <?php
+#Created by Hang Tu Wong Ley Franco
 function cleaningObject($obj) {
 	foreach ($obj as $key => $value) {
 		if(is_array($value)){
