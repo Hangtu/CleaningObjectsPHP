@@ -16,3 +16,10 @@ function cleaningObject($obj) {
 //example
 //$object = cleaningObject($object);
 ?>
+
+
+<?php
+	$value = "HelloWorld";
+	$key   = preg_replace('/([^A-Z-])([A-Z])/', '$1_$2', $key);
+	##hello_world
+?>
